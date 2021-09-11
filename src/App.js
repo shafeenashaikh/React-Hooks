@@ -5,6 +5,7 @@ import PostList from './component/PostList';
 import ClassCount from './Hooks/ClassCount';
 import HookCounter from './Hooks/HookCounter';
 import HooksCounterTwo from './Hooks/HookCounterTwo';
+import HookCounterThree from './Hooks/HooksCounterThree';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
        {/* <PostForm/> */}
        {/* <ClassCount/> */}
        {/* <HookCounter/> */}
-       <HooksCounterTwo/>
+       {/* <HooksCounterTwo/> */}
+       <HookCounterThree/>
     </div>
   );
 }
