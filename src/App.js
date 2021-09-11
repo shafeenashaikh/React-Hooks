@@ -7,6 +7,7 @@ import HookCounter from './Hooks/HookCounter';
 import HookCounter1 from './Hooks/HookCounter1';
 import HookCounterOne from './Hooks/HookCounterOne';
 import HooksCounterTwo from './Hooks/HookCounterTwo';
+import HookMouse from './Hooks/HookMouse';
 import HookCounterFour from './Hooks/HooksCounterFour';
 import HookCounterThree from './Hooks/HooksCounterThree';
 
@@ -21,8 +22,10 @@ function App() {
        {/* <HookCounterThree/> */}
        {/* <HookCounterFour/> */}
        {/* <HookCounterOne/> */}
-       <HookCounter1/>
+       {/* <HookCounter1/> */}
+       <HookMouse/>
     </div>
+
   );
 }
 
