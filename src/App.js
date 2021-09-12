@@ -3,6 +3,7 @@ import './App.css';
 import PostForm from './component/PostForm';
 import PostList from './component/PostList';
 import ClassCount from './Hooks/ClassCount';
+import ComponentE from './Hooks/ComponentE';
 import ComponentF from './Hooks/ComponentF';
 import DataFetching from './Hooks/DataFetching';
 import DataFetchingTwo from './Hooks/DataFetchingTwo';
@@ -26,6 +27,7 @@ function App() {
      <UserContext.Provider value={'Diana'}>
        <ChannelContext.Provider value={'Bruce'}>
          <ComponentF/>
+         <ComponentE/>
        </ChannelContext.Provider>
      </UserContext.Provider>
        {/* <PostList/> */}
