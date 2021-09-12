@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Counter from './component/Counter';
 import DataFetchingOne from './component/DataFetchingOne';
 import DataFetchingTwo from './component/DataFetchingTwo';
 import ParentComponent from './component/ParentComponent';
@@ -28,7 +29,8 @@ import MouseContainer from './Hooks/MouseContainer';
 function App() {
   return (
     <div className="App"> 
-    <ParentComponent/>
+    <Counter/>
+    {/* <ParentComponent/> */}
    {/* <DataFetchingTwo/> */}
     {/* <DataFetchingOne/> */}
       {/* <CounterOne/> */}
