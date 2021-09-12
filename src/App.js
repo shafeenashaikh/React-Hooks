@@ -4,6 +4,7 @@ import Counter from './component/Counter';
 import DataFetchingOne from './component/DataFetchingOne';
 import DataFetchingTwo from './component/DataFetchingTwo';
 import FocusInput from './component/FocusInput';
+import HookTimer from './component/HookTimer';
 import ParentComponent from './component/ParentComponent';
 import PostForm from './component/PostForm';
 import PostList from './component/PostList';
@@ -30,7 +31,8 @@ import MouseContainer from './Hooks/MouseContainer';
 function App() {
   return (
     <div className="App"> 
-    <FocusInput/>
+    <HookTimer/>
+    {/* <FocusInput/> */}
     {/* <Counter/> */}
     {/* <ParentComponent/> */}
    {/* <DataFetchingTwo/> */}
