@@ -4,6 +4,7 @@ import Counter from './component/Counter';
 import DataFetchingOne from './component/DataFetchingOne';
 import DataFetchingTwo from './component/DataFetchingTwo';
 import DocTitleOne from './component/DocTitleOne';
+import DocTitleTwo from './component/DocTitleTwo';
 import FocusInput from './component/FocusInput';
 import HookTimer from './component/HookTimer';
 import ParentComponent from './component/ParentComponent';
@@ -33,6 +34,7 @@ function App() {
   return (
     <div className="App"> 
     <DocTitleOne/>
+    <DocTitleTwo/>
     {/* <HookTimer/> */}
     {/* <FocusInput/> */}
     {/* <Counter/> */}
