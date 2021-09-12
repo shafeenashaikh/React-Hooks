@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import DataFetchingOne from './component/DataFetchingOne';
+import DataFetchingTwo from './component/DataFetchingTwo';
 import PostForm from './component/PostForm';
 import PostList from './component/PostList';
 import ClassCount from './Hooks/ClassCount';
@@ -8,7 +9,7 @@ import ClassCount from './Hooks/ClassCount';
 // import ComponentF from './Hooks/ComponentF';
 import CounterOne from './Hooks/CounterOne';
 import DataFetching from './Hooks/DataFetching';
-import DataFetchingTwo from './Hooks/DataFetchingTwo';
+
 import HookCounter from './Hooks/HookCounter';
 import HookCounter1 from './Hooks/HookCounter1';
 import HookCounterOne from './Hooks/HookCounterOne';
@@ -26,7 +27,8 @@ import MouseContainer from './Hooks/MouseContainer';
 function App() {
   return (
     <div className="App"> 
-    <DataFetchingOne/>
+   <DataFetchingTwo/>
+    {/* <DataFetchingOne/> */}
       {/* <CounterOne/> */}
      {/* <UserContext.Provider value={'Diana'}>
        <ChannelContext.Provider value={'Bruce'}>
