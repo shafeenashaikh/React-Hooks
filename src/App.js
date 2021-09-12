@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import DataFetchingOne from './component/DataFetchingOne';
 import PostForm from './component/PostForm';
 import PostList from './component/PostList';
 import ClassCount from './Hooks/ClassCount';
@@ -25,8 +26,8 @@ import MouseContainer from './Hooks/MouseContainer';
 function App() {
   return (
     <div className="App"> 
-      <CounterOne/>
-
+    <DataFetchingOne/>
+      {/* <CounterOne/> */}
      {/* <UserContext.Provider value={'Diana'}>
        <ChannelContext.Provider value={'Bruce'}>
          <ComponentF/>
