@@ -3,7 +3,7 @@ import './App.css';
 import PostForm from './component/PostForm';
 import PostList from './component/PostList';
 import ClassCount from './Hooks/ClassCount';
-import componentC from './Hooks/ComponentC';
+import ComponentF from './Hooks/ComponentF';
 import DataFetching from './Hooks/DataFetching';
 import DataFetchingTwo from './Hooks/DataFetchingTwo';
 import HookCounter from './Hooks/HookCounter';
@@ -22,11 +22,11 @@ import MouseContainer from './Hooks/MouseContainer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
      <UserContext.Provider value={'Diana'}>
-        <ChannelContext.provider value={'Bruce'}>
-              <componentC/>
-       </ChannelContext.provider>
+       <ChannelContext.Provider value={'Bruce'}>
+         <ComponentF/>
+       </ChannelContext.Provider>
      </UserContext.Provider>
        {/* <PostList/> */}
        {/* <PostForm/> */}
