@@ -3,6 +3,7 @@ import './App.css';
 import PostForm from './component/PostForm';
 import PostList from './component/PostList';
 import ClassCount from './Hooks/ClassCount';
+import DataFetching from './Hooks/DataFetching';
 import HookCounter from './Hooks/HookCounter';
 import HookCounter1 from './Hooks/HookCounter1';
 import HookCounterOne from './Hooks/HookCounterOne';
@@ -27,8 +28,10 @@ function App() {
        {/* <HookCounter1/> */}
        {/* <HookMouse/> */}
        {/* <MouseContainer/> */}
-       <IntervalHookCounter/>
+       {/* <IntervalHookCounter/> */}
+       <DataFetching/>
     </div>
+
 
   );
 }
