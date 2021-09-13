@@ -27,6 +27,9 @@ import HookCounterFour from './Hooks/HooksCounterFour';
 import HookCounterThree from './Hooks/HooksCounterThree';
 import IntervalHookCounter from './Hooks/IntervalHookCounter';
 import MouseContainer from './Hooks/MouseContainer';
+import UserForm from './Hooks/userFrom';
+
+
 
 
 //  export const UserContext = React.createContext()
@@ -35,8 +38,9 @@ import MouseContainer from './Hooks/MouseContainer';
 function App() {
   return (
     <div className="App"> 
-    <Counter1/>
-    <Counter2/>
+  <UserForm/>
+    {/* <Counter1/>
+    <Counter2/> */}
     {/* <DocTitleOne/>
     <DocTitleTwo/> */}
     {/* <HookTimer/> */}
