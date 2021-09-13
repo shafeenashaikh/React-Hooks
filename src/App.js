@@ -11,6 +11,8 @@ import ParentComponent from './component/ParentComponent';
 import PostForm from './component/PostForm';
 import PostList from './component/PostList';
 import ClassCount from './Hooks/ClassCount';
+import Counter1 from './Hooks/Counter1';
+import Counter2 from './Hooks/Counter2';
 // import ComponentE from './Hooks/ComponentE';
 // import ComponentF from './Hooks/ComponentF';
 import CounterOne from './Hooks/CounterOne';
@@ -33,8 +35,10 @@ import MouseContainer from './Hooks/MouseContainer';
 function App() {
   return (
     <div className="App"> 
-    <DocTitleOne/>
-    <DocTitleTwo/>
+    <Counter1/>
+    <Counter2/>
+    {/* <DocTitleOne/>
+    <DocTitleTwo/> */}
     {/* <HookTimer/> */}
     {/* <FocusInput/> */}
     {/* <Counter/> */}
