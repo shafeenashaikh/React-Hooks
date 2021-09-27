@@ -28,6 +28,7 @@ import HookCounterThree from './Hooks/HooksCounterThree';
 import IntervalHookCounter from './Hooks/IntervalHookCounter';
 import MouseContainer from './Hooks/MouseContainer';
 import UserForm from './Hooks/userFrom';
+import UseEffect from './Hooks1/useEffect';
 import UseState from './Hooks1/useState';
 
 
@@ -40,7 +41,8 @@ import UseState from './Hooks1/useState';
 function App() {
   return (
     <div className="App"> 
-  <UseState/>
+    <UseEffect/>
+  {/* <UseState/> */}
   {/* <UserForm/> */}
     {/* <Counter1/>
     <Counter2/> */}
