@@ -28,6 +28,8 @@ import HookCounterThree from './Hooks/HooksCounterThree';
 import IntervalHookCounter from './Hooks/IntervalHookCounter';
 import MouseContainer from './Hooks/MouseContainer';
 import UserForm from './Hooks/userFrom';
+import UseState from './Hooks1/useState';
+
 
 
 
@@ -38,7 +40,8 @@ import UserForm from './Hooks/userFrom';
 function App() {
   return (
     <div className="App"> 
-  <UserForm/>
+  <UseState/>
+  {/* <UserForm/> */}
     {/* <Counter1/>
     <Counter2/> */}
     {/* <DocTitleOne/>
