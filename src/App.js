@@ -32,6 +32,7 @@ import USEContext from './Hooks1/useContext';
 import UseEffect from './Hooks1/useEffect';
 import UseEffect1 from './Hooks1/useEffect1';
 import UseMemo from './Hooks1/useMemo';
+import UseReducer from './Hooks1/UseReducer';
 import UseRef from './Hooks1/useRef';
 import UseState from './Hooks1/useState';
 
@@ -45,7 +46,8 @@ import UseState from './Hooks1/useState';
 function App() {
   return (
     <div className="App"> 
-    <USEContext/>
+    <UseReducer/>
+    {/* <USEContext/> */}
     {/* <UseRef/> */}
     {/* <UseMemo/> */}
     {/* <UseEffect1/> */}
