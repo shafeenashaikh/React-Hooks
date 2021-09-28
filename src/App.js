@@ -28,11 +28,11 @@ import HookCounterThree from './Hooks/HooksCounterThree';
 import IntervalHookCounter from './Hooks/IntervalHookCounter';
 import MouseContainer from './Hooks/MouseContainer';
 import UserForm from './Hooks/userFrom';
+import UseCallBack from './Hooks1/useCallback';
 import USEContext from './Hooks1/useContext';
 import UseEffect from './Hooks1/useEffect';
 import UseEffect1 from './Hooks1/useEffect1';
 import UseMemo from './Hooks1/useMemo';
-import UseReducer1 from './Hooks1/useRedecer1';
 import UseReducer from './Hooks1/UseReducer';
 import UseRef from './Hooks1/useRef';
 import UseState from './Hooks1/useState';
@@ -47,8 +47,9 @@ import UseState from './Hooks1/useState';
 function App() {
   return (
     <div className="App"> 
-    <UseReducer1/>
-    {/* <UseReducer/> */}
+    {/* <UseCallBack/> */}
+    {/* <UseReducer1/> */}
+    <UseReducer/>
     {/* <USEContext/> */}
     {/* <UseRef/> */}
     {/* <UseMemo/> */}
