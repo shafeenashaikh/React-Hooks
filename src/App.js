@@ -31,6 +31,7 @@ import UserForm from './Hooks/userFrom';
 import UseEffect from './Hooks1/useEffect';
 import UseEffect1 from './Hooks1/useEffect1';
 import UseMemo from './Hooks1/useMemo';
+import UseRef from './Hooks1/useRef';
 import UseState from './Hooks1/useState';
 
 
@@ -43,7 +44,8 @@ import UseState from './Hooks1/useState';
 function App() {
   return (
     <div className="App"> 
-    <UseMemo/>
+    <UseRef/>
+    {/* <UseMemo/> */}
     {/* <UseEffect1/> */}
     {/* <UseEffect/> */}
   {/* <UseState/> */}
